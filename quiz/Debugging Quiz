@@ -1,0 +1,105 @@
+A conditional breakpoint …
+Select the one choice that best answers the prompt above:
+Answer 1
+
+is the a line of code that inconsistently breaks when I run it
+Answer 2
+
+where flow-of-control through my code changes depending upon some conditional statement like an if statement
+Answer 3
+
+is a location in my code where the browser stops execution and waits but only when a variable or javascript expression I specify evaluates to true
+
+
+
+
+
+While inspecting an element in the DOM on my website using the Chrome Devtools I accidentally deleted the DIV that had all my authentication components. They’ve disappeared from my screen. How do I fix it?
+Select the one choice that best answers the prompt above:
+Answer 1
+
+Refresh the page.
+Answer 2
+
+Use Edit>Undo from the menu while in Devtools
+Answer 3
+
+Redeploy the page from the repo.
+
+
+
+
+
+
+Which of the following is not a valid Console method? You’ve been introduced to several ways that you can figure this out without memorization.
+Select the one choice that best answers the prompt above:
+Answer 1
+assert
+
+Answer 2
+timer
+
+Answer 3
+log
+
+Answer 4
+warn
+
+
+
+
+
+var githubStickers = [
+  {
+    name: "Octocat",
+    qty: 12
+  }, 
+  {
+    name: "Luchadortocat",
+    qty: 2
+  }, 
+  {
+    name: "Gracehoppertocat",
+    qty: 5
+  }
+]
+
+
+Given this array of objects describing your collection of github stickers, what underbar function(s) can you use to return an array containing only those stickers where you have fewer than 5? If you’re not sure, try each of them out before answering.
+Select all choices that best answers the prompt above:
+Answer 1
+
+reduce
+Answer 2
+
+each
+Answer 3
+
+filter
+Answer 4
+
+map
+
+
+
+
+
+
+Which of the following things can I do with Chrome Devtools. (check all that apply)
+Select all choices that best answers the prompt above:
+Answer 1
+save changes to a page’s source code to a local file
+
+Answer 2
+save changes to the source code to the hosting platform
+
+Answer 3
+make temporary realtime changes to a site to see how they look
+
+Answer 4
+write my own Javascript in the console unrelated to the site to try something out
+
+
+
+
+
