@@ -1,0 +1,101 @@
+After the following code runs, what will be the value of x?
+
+const x = 2;
+let y = x; 
+y = 3;
+
+
+
+After the following code runs, what will be the value of x.foo?
+
+const x = { foo: 3 };
+const y = x;
+y.foo = 2;
+
+
+
+
+
+After the following code runs, what will be the value of x.foo?
+
+const x = { foo: 3 };
+let y = x;
+y = 2;
+
+
+After the following code runs, what will be the value of myArray?
+
+const myArray = [2, 3, 4, 5];
+let ourArray = myArray;
+ourArray = [];
+
+
+
+
+
+After the following code runs, what will be the value of myArray?
+
+const myArray = [2, 3, 4, 5];
+let ourArray = myArray;
+ourArray[2] = 25;
+ourArray = undefined;
+
+
+
+
+After the following code runs, what will be the value of myArray?
+
+const myArray = [2, 3, 4, 5];
+const doStuff = (arr) => {
+  arr[2] = 25;
+};
+
+doStuff(myArray);
+
+
+
+After the following code runs, what will be the value of myArray?
+
+const myArray = [2, 3, 4, 5];
+const doStuff = (arr) => {
+  arr = [];
+};
+
+doStuff(myArray);
+
+
+
+After the following code runs, what will be the value of player.score?
+
+const player = { score: 3 };
+const doStuff = (obj) => {
+  obj.score = 2;
+  obj = undefined;
+};
+
+doStuff(player);
+
+
+console.log(player.score); 
+
+
+
+After the following code runs, what will be the value of player?
+
+let player = { score: 3 };
+const doStuff = (obj) => {
+  obj = {};
+};
+
+player = doStuff(player);
+
+
+
+
+After the following code runs, what will be the value of example?
+
+const obj = { 
+  inner: { x: 10 },
+};
+const example = obj.inner;
+obj.inner = undefined;
